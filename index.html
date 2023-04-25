@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dzienniczek Praktyk</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="teachingProgram.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dzienniczek Praktyki Zawodowej</h1>
+    </header>
+    <nav class="container">
+        <ul>
+<li><a href="index.html">Metryczka</a></li>
+<li><a href="strona2.html">Dziennik zajęć</a></li>
+<li><a href="strona3.html">Podsumowanie</a></li>
+</ul>
+    </nav>
+    <div class="form">
+        <h2>Wprowadź dane Praktykanta</h2>
+    </div>
+<fieldset class="form">   
+        <label for="userName" class="form">Imię:<input type="text"  value="" /></label>
+        <label for="userNazwisko" class="form">Nazwisko:<input type="text"  value="" /></label>
+        <label for="klasa" class="form">Klasa:<input type="text"  /></label>
+        <label for="rokszkolny" class="form">Rok szkolny:<input type="text"  /></label>
+        <label for="odbytej" class="form">Odbytej w:<input type="text"  /></label>
+    
+        <fieldset class="Time">
+            <legend>Czas trwania</legend>
+            <label for="Datastart" class="form">Data rozpoczęcia:<input type="date"  /></label>
+            <label for="Dataend" class="form">Data zakończenia:<input type="date"  /></label>
+        </fieldset>
+           <button onclick="pokazPodsumowanie()">Zatwierdź</button>
+        </fieldset>
+<div id="podsumowanie" style="display: none;">
+<div id="wyniki"></div>
+</div>
+        <footer>
+
+            &copy Pałasiński
+        </footer>
+
+</body>
+</html>

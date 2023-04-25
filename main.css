@@ -1,0 +1,96 @@
+body{
+    background-color: gray;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 5px #5a5a5a;
+    width: 70%;
+margin-left: 300px;
+margin-right: 300px;
+}
+h1,h2, footer{
+    text-align: center;
+    color: black;
+}
+.container{
+display: flex;
+justify-content: center;
+  align-items: center; 
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+li
+{
+    flex-basis: 10rem;
+    margin: 0.3rem;
+}
+
+a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 2px;
+
+
+}
+a:hover{
+    background-color: white ;
+    color: black;
+}
+label{
+    display: flex;
+    margin: 10px;
+    color: black;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+input:hover{
+    background-color: #5a5a5a;
+    color:white;
+}
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ flex-wrap: wrap;
+}
+legend{
+    color: black;
+}
+.Time{
+width: 100%;
+}
+button{
+    background-color: lightgreen;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: green;
+}
+#podsumowanie{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
